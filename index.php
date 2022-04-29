@@ -8,6 +8,10 @@
           <a href="<?php the_permalink(); ?>">Loe rohkem</a>
           <?php
     }
+  } else {
+    ?>
+      <h2>Veel ei ole ühtegi postitust</h2>
+    <?php
   }
   get_footer();
 ?>
